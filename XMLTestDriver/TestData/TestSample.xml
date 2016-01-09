@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xmlwebtests>
+
+ <test-attributes>
+	<title>Website test: Happy Critter Farm</title>
+	<version></version>
+	<description></description>
+	<subject>Test HCF website</subject>
+ </test-attributes>
+ 
+<address>
+    <url>http://happycritterfarm.com/</url>
+</address>
+  
+<test>
+	<test-name> HCF target text success test</test-name>
+	<test-type>Target Text</test-type>
+    <page>index.html</page>
+    <time-expected>5000</time-expected>
+    <target-text>registered foster farm</target-text>
+    <timeout-period>15000</timeout-period>
+    <run-period>
+      <timer>
+        <days>0</days>
+        <hours>0</hours>
+        <minutes>5</minutes>
+        <seconds>0</seconds>
+      </timer>
+	</run-period>
+</test>
+  <test>
+    <test-name> HCF target text failure test</test-name>
+    <test-type>Target Text</test-type>
+    <page>index.html</page>
+    <time-expected>5000</time-expected>
+    <target-text>text not there</target-text>
+    <timeout-period>15000</timeout-period>
+    <run-period>
+      <timer>
+        <days>0</days>
+        <hours>0</hours>
+        <minutes>5</minutes>
+        <seconds>0</seconds>
+      </timer>
+    </run-period>
+  </test>
+
+
+</xmlwebtests>

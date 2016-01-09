@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xmlwebtests>
+ 
+<log-email>
+    <success>
+      <email-to>carolyn.ownby@gmail.com</email-to>
+    </success>
+    <failure>
+      <email-to>carolyn.ownby@gmail.com</email-to>
+
+    </failure>
+  </log-email>
+  <!--
+      <email-cc>carolyn.ownby@gmail.com</email-cc>
+      <email-to>carolyn.ownby@gmail.com</email-to>
+      <email-to>c_ownby@yahoo.com</email-to>
+      -->
+
+</xmlwebtests>

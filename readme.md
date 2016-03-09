@@ -1,6 +1,6 @@
 # XML Web Test
 
-This is a test suite which uses selenium to measure response and test interaction of CASS web applications. 
+This is a test suite which uses selenium to measure response and test interaction of web applications. 
 
 ## Scheduing Tests (to the minute)
 
